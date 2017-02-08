@@ -1,0 +1,46 @@
+$fontFamliy: 'microsoft yahei';
+body,html{
+  background-color: #fff;
+}
+//header
+header{
+
+  a{
+    color: #F7685C;
+  }
+  .title {
+    color: #000;
+    font-family: $fontFamliy;
+  }
+}
+.content{
+  border-top: 1px solid #ccc;
+  .row{
+
+    border-bottom: 1px solid #ccc;
+    padding-top:.5rem;
+    box-sizing: border-box;
+  }
+  img{
+    width: 4rem;
+    height: 5.5rem;
+  }
+  h3,p{
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+
+  }
+  h3{
+    font-size: 13px;
+    color: #1a1a1a;
+    $fontFamliy: 'microsoft yahei';
+    margin-top:.2rem;
+    margin-bottom:.5rem;
+  }
+  p{
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom:.2rem;
+  }
+}

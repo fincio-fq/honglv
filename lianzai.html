@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>红旅动漫</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="./css/sm.min.css">
+    <link rel="stylesheet" href="./css/sm-extend.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/lianzai.css">
+</head>
+<body>
+<!--header-->
+<header class="bar bar-nav">
+    <button class="button button-link button-nav pull-left">
+        <a href='index.html' class="icon icon-left"></a>
+
+    </button>
+    <h1 class="title">连载动漫</h1>
+</header>
+
+<div class="content">
+    <div class="content-padded grid-demo" id="demo">
+        <!--<div class="row">-->
+            <!--<div class="col-20">-->
+                <!--<a href="http://www.hltm.tv/view/12382.html">-->
+                    <!--<img src="./image/63.jpg" alt="">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-80">-->
+                <!--<a href="http://www.hltm.tv/view/12382.html">-->
+                    <!--<h3>Maho Girls 光之美少女！/魔法师光之美少女</h3>-->
+                <!--</a>-->
+                <!--<p>连载至36集</p>-->
+                <!--<p>10-11 更新</p>-->
+                <!--<p>下载次数:7450</p>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    </div>
+</div>
+<script type="text/template" id="tpl1">
+    <% for(var i = 0;i < news.length; i++) {%>
+    <div class="row">
+        <div class="col-20">
+            <a href="<%=news[i].url %>">
+                <img src="<%=news[i].img %>" alt="">
+            </a>
+        </div>
+        <div class="col-80">
+            <a href="<%=news[i].url %>">
+                <h3><%= news[i].name %></h3>
+            </a>
+            <p><%= news[i].episode %></p>
+            <p><%= news[i].updateTime %></p>
+            <p>下载次数:<%= news[i].downloadCount %></p>
+        </div>
+    </div>
+
+    <% } %>
+</script>
+
+<script type='text/javascript' src='./js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/swiper.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/sm-extend.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/template-native.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/lianzai.js' charset='utf-8'></script>
+</body>
+</html>

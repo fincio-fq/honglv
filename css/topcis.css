@@ -1,0 +1,25 @@
+header a {
+  color: #F7685C; }
+header .title {
+  color: #000;
+  font-family: "microsoft yahei"; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 2px solid #ccc; }
+  ul li {
+    width: 95%;
+    margin-left: .5rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    border-bottom: 1px solid #ccc; }
+    ul li img {
+      width: 100%; }
+    ul li span {
+      font-size: .7rem;
+      color: #6d6d72;
+      font-family: "microsoft yahei"; }
+
+/*# sourceMappingURL=topcis.css.map */

@@ -1,0 +1,33 @@
+body, html {
+  background-color: #fff; }
+
+header a {
+  color: #F7685C; }
+header .title {
+  color: #000;
+  font-family: "microsoft yahei"; }
+
+.content {
+  border-top: 1px solid #ccc; }
+  .content .row {
+    border-bottom: 1px solid #ccc;
+    padding-top: .5rem;
+    box-sizing: border-box; }
+  .content img {
+    width: 4rem;
+    height: 5.5rem; }
+  .content h3, .content p {
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem; }
+  .content h3 {
+    font-size: 13px;
+    color: #1a1a1a;
+    margin-top: .2rem;
+    margin-bottom: .5rem; }
+  .content p {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: .2rem; }
+
+/*# sourceMappingURL=lianzai.css.map */
